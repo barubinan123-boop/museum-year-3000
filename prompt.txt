@@ -1,0 +1,24 @@
+Kamu adalah BUILDER (build-only) untuk satu bounty make.fun. Kerjakan sampai repo selesai dan ter-commit; JANGAN bundle, JANGAN check, JANGAN submit — itu urusan agen utama.
+
+BOUNTY: "Museum of the Year 3000", slug u-donrulezz-museum-of-the-year-3000-b727a0bb, total hadiah $2 (juara 1 $0.63, 10 tempat berbayar). Entri tutup 2026-11-26T20:25:00Z (27 Nov 03:25 WIB). Peserta saat dipilih: 0.
+
+FOLDER KERJA: ~/workspace/makefun-bounty/museum-year-3000/
+KIT (sudah diunduh): ~/workspace/makefun-bounty/museum-year-3000/u-donrulezz-museum-of-the-year-3000-b727a0bb-kit/ — berisi RULES.txt, competition.yaml, cli/makefun.mjs, kit.json.
+REQUIREMENTS JSON: ~/workspace/makefun-bounty/reqs/u-donrulezz-museum-of-the-year-3000-b727a0bb.json
+SKILL: ~/workspace/custom-skills/make_fun_bounty_submission/SKILL.md
+
+LANGKAH:
+1. Baca SKILL.md dan kit RULES.txt sampai habis. Ikuti RULES persis.
+2. Tugas: program di repo root (main.py) yang menulis SATU baris teks ke /output/entry.txt — label museum tahun 3000 untuk sebuah benda biasa dari masa kini (contoh di RULES: plastic fork, parking meter, house key, group chat). Aturan gate: teks UTF-8, 1–200 karakter, bukan hanya spasi, satu baris, bahasa Inggris, orisinal.
+3. QUALITY BAR + POLA JUARA 1 (wajib): tulis MINIMAL 5 kandidat di sesi ini (simpan semuanya di CANDIDATES.md beserta penilaianmu), lalu nilai sendiri dan pilih HANYA yang terbaik. Kriteria juri (dari RULES, berurutan): (1) benar-benar label museum tahun 3000 untuk benda biasa masa kini; (2) lucunya langsung kena di bacaan pertama, tanpa penjelasan; (3) humor datang dari museum tahun 3000 yang SALAH MEMBACA benda itu — label mengatakan sesuatu yang benar sekaligus absurd tentang fungsi benda tersebut; (4) terbaca seperti label museum sungguhan: pendek, datar, percaya diri, satu baris, tanpa basa-basi; (5) benda dan sudutnya SEGAR, bukan lelucon pertama yang terpikir tentang benda pertama yang terpikir. Pola pemenang: ADEGAN konkret — orang bernama / benda konkret / satu detail mengejutkan / akhiri dengan citra, tanpa moral. HINDARI klise yang pasti ditulis ribuan agen lain (mis. lelucon paling jelas tentang garpu plastik). Pilih benda dan sudut yang tidak umum (mis. benda yang jarang dipilih: CAPTCHA, loading spinner, shopping cart yang ditinggalkan, dsb. — kamu yang memutuskan lewat kandidat).
+4. Tulis file DI SESI INI dengan minimal 2 pesan write/edit (main.py + README.md + LICENSE + CANDIDATES.md). JANGAN salin starter kit (kit ini tidak punya starter; tulis main.py segar dari nol). JANGAN baca implementasi entri lama untuk meniru isinya; kamu BOLEH melihat pola layout repo entri teks sebelumnya yang sudah lolos check hanya untuk format README/badge: ~/workspace/makefun-bounty/nostalgic-childhood-memory/README.md.
+5. README wajib 3 badge live mengikuti pola repo tersebut, disesuaikan ke slug dan repo ini: badge bounty (https://make.fun/badge/<slug>.svg), badge rank (https://make.fun/badge/<slug>/barubinan123-boop/museum-year-3000/rank.svg), badge reward (.../reward.svg), masing-masing menaut ke halaman bounty/leaderboard make.fun dengan utm_source=github&utm_medium=readme&utm_campaign=<slug>.
+6. LICENSE MIT, wajib ada baris SPDX-License-Identifier: MIT.
+7. Buat repo GitHub PUBLIK baru barubinan123-boop/museum-year-3000 (gh CLI sudah login sebagai barubinan123-boop; kompetisi dibuka 2026-11-25T20:24:47Z, jadi repo baru sekarang sudah memenuhi syarat "dibuat setelah kompetisi dibuka"). Push commit pertama. Set repo About: homepage https://make.fun/bounty/u-donrulezz-museum-of-the-year-3000-b727a0bb, topics: makefun ai-agents bounties.
+8. Verifikasi lokal sesuai RULES: jalankan main.py, pastikan /output/entry.txt berisi tepat satu baris, 1–200 karakter UTF-8, dan cocok dengan baris terbaik dari CANDIDATES.md.
+9. Simpan brief ini kata-per-kata ke ~/workspace/makefun-bounty/museum-year-3000/prompt.txt.
+10. JANGAN bundle, JANGAN check, JANGAN submit.
+
+LARANGAN KERAS: Akun make.fun @hsnmbrk07 SUDAH terhubung — JANGAN makefun login. JANGAN PERNAH print/cat/log API key (~/.makefun/credentials) atau keypair (~/workspace/makefun-bounty/makefun-keypair.json). Jangan sebutkan atau tampilkan isinya.
+
+LAPORAN AKHIR (wajib): URL repo + SHA commit lengkap (40 karakter). Sertakan juga teks entri final dan jumlah karakternya.
